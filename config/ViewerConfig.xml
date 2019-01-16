@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ViewerConfig>
+    <Geometry>
+        <Grid_Half_Row>50</Grid_Half_Row>
+        <Grid_Half_Col>50</Grid_Half_Col>
+        <Grid_Res_Row>1.0</Grid_Res_Row>
+        <Grid_Res_Col>1.0</Grid_Res_Col>
+        <Car_Width>2.2</Car_Width>
+        <Car_Length>4.5</Car_Length>
+        <Car_Center_X>0</Car_Center_X>
+        <Car_Center_Y>-1.835</Car_Center_Y>
+    </Geometry>
+    <Lcm>
+        <Module Name="Candidate">
+            <Net>udpm://238.255.76.67:7667?ttl=128</Net>
+            <Channel>CKTRAJECTORIESDRAW</Channel>
+            <color_r>100</color_r>
+            <color_g>100</color_g>
+            <color_b>100</color_b>
+        </Module>
+        <Module Name="Path">
+            <Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKPATHDRAW</Channel>
+            <color_r>255</color_r>
+            <color_g>255</color_g>
+            <color_b>0</color_b>
+        </Module>
+        <Module Name="Map">
+        	<Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKMAPDRAW</Channel>
+            <color_r>255</color_r>
+            <color_g>0</color_g>
+            <color_b>0</color_b>
+        </Module>
+        <Module Name="OriginS">
+        	<Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKORIGINSDRAW</Channel>
+            <color_r>255</color_r>
+            <color_g>0</color_g>
+            <color_b>0</color_b>
+        </Module>
+        <Module Name="OriginC">
+        	<Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKORIGINCDRAW</Channel>
+            <color_r>0</color_r>
+            <color_g>255</color_g>
+            <color_b>0</color_b>
+        </Module>
+        <Module Name="OriginE">
+        	<Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKORIGINEDRAW</Channel>
+            <color_r>0</color_r>
+            <color_g>0</color_g>
+            <color_b>255</color_b>
+        </Module>
+        <Module Name="SmoothS">
+        	<Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKSMOOTHSDRAW</Channel>
+            <color_r>255</color_r>
+            <color_g>0</color_g>
+            <color_b>0</color_b>
+        </Module>
+        <Module Name="SmoothC">
+        	<Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKSMOOTHCDRAW</Channel>
+            <color_r>0</color_r>
+            <color_g>255</color_g>
+            <color_b>0</color_b>
+        </Module>
+        <Module Name="SmoothE">
+        	<Net>udpm://238.255.76.67:7667?ttl=64</Net>
+            <Channel>CKSMOOTHEDRAW</Channel>
+            <color_r>0</color_r>
+            <color_g>0</color_g>
+            <color_b>255</color_b>
+        </Module>
+    </Lcm>
+</ViewerConfig>
